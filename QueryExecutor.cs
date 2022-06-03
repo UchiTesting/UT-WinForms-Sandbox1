@@ -22,10 +22,7 @@ public partial class QueryExecutor : Form
     {
         try
         {
-            string selectConnection =
-                @"Data Source=Producer\SQLExpress;" +
-                @"Initial Catalog=Northwind;" +
-                @"Integrated Security=True";
+            string selectConnection = StaticConfig.connectionString;
 
             SqlDataAdapter dataAdapter = new SqlDataAdapter(selectCommandText, selectConnection);
 
