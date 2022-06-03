@@ -18,5 +18,11 @@
             ParameterizedSpForm parameterizedSpForm = new ParameterizedSpForm();
             parameterizedSpForm.Show();
         }
+
+        private void Btn_DisplayReadWriteTextFile_Click(object sender, EventArgs e)
+        {
+            ReadWriteFileForm readWriteFileForm = new ReadWriteFileForm();
+            readWriteFileForm.Show();
+        }
     }
 }

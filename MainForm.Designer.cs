@@ -30,6 +30,7 @@
         {
             this.Btn_DisplayQueryExecutor = new System.Windows.Forms.Button();
             this.Btn_DisplayParamStoredProcedure = new System.Windows.Forms.Button();
+            this.Btn_DisplayReadWriteTextFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_DisplayQueryExecutor
@@ -52,6 +53,16 @@
             this.Btn_DisplayParamStoredProcedure.UseVisualStyleBackColor = true;
             this.Btn_DisplayParamStoredProcedure.Click += new System.EventHandler(this.Btn_DisplayParamStoredProcedure_Click);
             // 
+            // Btn_DisplayReadWriteTextFile
+            // 
+            this.Btn_DisplayReadWriteTextFile.Location = new System.Drawing.Point(12, 70);
+            this.Btn_DisplayReadWriteTextFile.Name = "Btn_DisplayReadWriteTextFile";
+            this.Btn_DisplayReadWriteTextFile.Size = new System.Drawing.Size(230, 23);
+            this.Btn_DisplayReadWriteTextFile.TabIndex = 2;
+            this.Btn_DisplayReadWriteTextFile.Text = "Display Read Write File";
+            this.Btn_DisplayReadWriteTextFile.UseVisualStyleBackColor = true;
+            this.Btn_DisplayReadWriteTextFile.Click += new System.EventHandler(this.Btn_DisplayReadWriteTextFile_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -59,6 +70,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Btn_DisplayParamStoredProcedure);
             this.Controls.Add(this.Btn_DisplayQueryExecutor);
+            this.Controls.Add(this.Btn_DisplayReadWriteTextFile);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.ResumeLayout(false);
@@ -69,5 +81,6 @@
 
         private Button Btn_DisplayQueryExecutor;
         private Button Btn_DisplayParamStoredProcedure;
+        private Button Btn_DisplayReadWriteTextFile;
     }
 }
