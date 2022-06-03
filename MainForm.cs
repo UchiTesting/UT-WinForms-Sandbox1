@@ -12,5 +12,11 @@
             QueryExecutor queryExecutor = new QueryExecutor();
             queryExecutor.Show();
         }
+
+        private void Btn_DisplayParamStoredProcedure_Click(object sender, EventArgs e)
+        {
+            ParameterizedSpForm parameterizedSpForm = new ParameterizedSpForm();
+            parameterizedSpForm.Show();
+        }
     }
 }
