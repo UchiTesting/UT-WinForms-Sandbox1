@@ -31,6 +31,7 @@
             this.Btn_DisplayQueryExecutor = new System.Windows.Forms.Button();
             this.Btn_DisplayParamStoredProcedure = new System.Windows.Forms.Button();
             this.Btn_DisplayReadWriteTextFile = new System.Windows.Forms.Button();
+            this.Pnl_Content = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // Btn_DisplayQueryExecutor
@@ -63,11 +64,22 @@
             this.Btn_DisplayReadWriteTextFile.UseVisualStyleBackColor = true;
             this.Btn_DisplayReadWriteTextFile.Click += new System.EventHandler(this.Btn_DisplayReadWriteTextFile_Click);
             // 
+            // Pnl_Content
+            // 
+            this.Pnl_Content.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Pnl_Content.Location = new System.Drawing.Point(248, 12);
+            this.Pnl_Content.Name = "Pnl_Content";
+            this.Pnl_Content.Size = new System.Drawing.Size(878, 596);
+            this.Pnl_Content.TabIndex = 3;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1138, 620);
+            this.Controls.Add(this.Pnl_Content);
             this.Controls.Add(this.Btn_DisplayParamStoredProcedure);
             this.Controls.Add(this.Btn_DisplayQueryExecutor);
             this.Controls.Add(this.Btn_DisplayReadWriteTextFile);
@@ -82,5 +94,6 @@
         private Button Btn_DisplayQueryExecutor;
         private Button Btn_DisplayParamStoredProcedure;
         private Button Btn_DisplayReadWriteTextFile;
+        private Panel Pnl_Content;
     }
 }
