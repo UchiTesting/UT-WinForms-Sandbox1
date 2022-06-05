@@ -20,6 +20,7 @@
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             panel.Controls.Add(form);
+
             form.Show();
         }
 
@@ -42,6 +43,13 @@
             ClearPanel(Pnl_Content);
             ReadWriteFileForm readWriteFileForm = new ReadWriteFileForm();
             PrepareAndDisplayFormInPanel(readWriteFileForm, Pnl_Content);
+        }
+
+        private void Btn_DisplayXmlReader_Click(object sender, EventArgs e)
+        {
+            ClearPanel(Pnl_Content);
+            XmlReaderForm xmlReaderForm = new XmlReaderForm();
+            PrepareAndDisplayFormInPanel(xmlReaderForm, Pnl_Content);
         }
     }
 }
