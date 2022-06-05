@@ -11,7 +11,7 @@
         {
             ClearPanel(Pnl_Content);
 
-            QueryExecutor queryExecutor = new QueryExecutor();
+            QueryExecutorForm queryExecutor = new QueryExecutorForm();
             PrepareAndDisplayFormInPanel(queryExecutor, Pnl_Content);
         }
 

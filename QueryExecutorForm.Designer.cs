@@ -1,6 +1,6 @@
 ﻿namespace QueryCS;
 
-partial class QueryExecutor
+partial class QueryExecutorForm
 {
     /// <summary>
     ///  Required designer variable.

@@ -3,9 +3,9 @@ using System.Data.SqlClient;
 
 namespace QueryCS;
 
-public partial class QueryExecutor : Form
+public partial class QueryExecutorForm : Form
 {
-    public QueryExecutor()
+    public QueryExecutorForm()
     {
         InitializeComponent();
     }
