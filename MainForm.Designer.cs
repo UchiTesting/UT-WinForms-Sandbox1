@@ -72,7 +72,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Pnl_Content.Location = new System.Drawing.Point(248, 12);
             this.Pnl_Content.Name = "Pnl_Content";
-            this.Pnl_Content.Size = new System.Drawing.Size(878, 596);
+            this.Pnl_Content.Size = new System.Drawing.Size(915, 596);
             this.Pnl_Content.TabIndex = 3;
             // 
             // Btn_DisplayXmlReader
@@ -89,7 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1138, 620);
+            this.ClientSize = new System.Drawing.Size(1175, 620);
             this.Controls.Add(this.Btn_DisplayXmlReader);
             this.Controls.Add(this.Pnl_Content);
             this.Controls.Add(this.Btn_DisplayParamStoredProcedure);
