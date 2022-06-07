@@ -33,6 +33,7 @@
             this.Btn_DisplayReadWriteTextFile = new System.Windows.Forms.Button();
             this.Pnl_Content = new System.Windows.Forms.Panel();
             this.Btn_DisplayXmlReader = new System.Windows.Forms.Button();
+            this.Btn_DisplayDataSet = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_DisplayQueryExecutor
@@ -85,11 +86,22 @@
             this.Btn_DisplayXmlReader.UseVisualStyleBackColor = true;
             this.Btn_DisplayXmlReader.Click += new System.EventHandler(this.Btn_DisplayXmlReader_Click);
             // 
+            // Btn_DisplayDataSet
+            // 
+            this.Btn_DisplayDataSet.Location = new System.Drawing.Point(12, 128);
+            this.Btn_DisplayDataSet.Name = "Btn_DisplayDataSet";
+            this.Btn_DisplayDataSet.Size = new System.Drawing.Size(230, 23);
+            this.Btn_DisplayDataSet.TabIndex = 5;
+            this.Btn_DisplayDataSet.Text = "Display DataSet";
+            this.Btn_DisplayDataSet.UseVisualStyleBackColor = true;
+            this.Btn_DisplayDataSet.Click += new System.EventHandler(this.Btn_DisplayDataSet_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1175, 620);
+            this.Controls.Add(this.Btn_DisplayDataSet);
             this.Controls.Add(this.Btn_DisplayXmlReader);
             this.Controls.Add(this.Pnl_Content);
             this.Controls.Add(this.Btn_DisplayParamStoredProcedure);
@@ -108,5 +120,6 @@
         private Button Btn_DisplayReadWriteTextFile;
         private Panel Pnl_Content;
         private Button Btn_DisplayXmlReader;
+        private Button Btn_DisplayDataSet;
     }
 }

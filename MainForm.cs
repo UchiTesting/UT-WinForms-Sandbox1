@@ -51,5 +51,12 @@
             XmlReaderForm xmlReaderForm = new XmlReaderForm();
             PrepareAndDisplayFormInPanel(xmlReaderForm, Pnl_Content);
         }
+
+        private void Btn_DisplayDataSet_Click(object sender, EventArgs e)
+        {
+            ClearPanel(Pnl_Content);
+            DataSetForm dataSetForm = new DataSetForm();
+            PrepareAndDisplayFormInPanel(dataSetForm, Pnl_Content);
+        }
     }
 }
