@@ -28,7 +28,7 @@ public partial class QueryExecutorForm : Form
 
             DataTable table = new DataTable();
             dataAdapter.Fill(table);
-            dataGridView1.DataSource = table;
+            Dgv_Content.DataSource = table;
 
         }
         catch (Exception ex)
